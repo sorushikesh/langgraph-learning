@@ -14,7 +14,7 @@ langchain-anthropic==0.3.17
 anthropic==0.59.0
 langchain-core==0.3.72
 langchain-community==0.3.27
-langchain==0.3.26
+langchain==0.3.27
 langchain-openai==0.3.28
 langchainhub==0.1.21
 langchain-mongodb==0.6.2
