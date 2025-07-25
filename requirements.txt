@@ -22,4 +22,4 @@ langsmith==0.4.8
 langgraph==0.5.4
 langchain-huggingface==0.3.1
 sentence-transformers==5.0.0
-huggingface-hub==0.33.4
+huggingface-hub==0.33.5
