@@ -1,0 +1,25 @@
+# Development tools
+black==25.1.0
+dotenv==0.9.9
+starlette==0.47.2
+python-dotenv==1.1.1
+pydantic==2.11.7
+
+# Flask
+flask==3.1.1
+flask-cors==6.0.1
+
+# LangChain packages
+langchain-anthropic==0.3.17
+anthropic==0.58.2
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain==0.3.26
+langchain-openai==0.3.28
+langchainhub==0.1.21
+langchain-mongodb==0.6.2
+langsmith==0.4.8
+langgraph==0.5.3
+langchain-huggingface==0.3.1
+sentence-transformers==5.0.0
+huggingface-hub==0.33.4
