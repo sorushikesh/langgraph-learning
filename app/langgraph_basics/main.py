@@ -6,8 +6,8 @@ from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.constants import END
 from langgraph.graph import StateGraph
 
-from app.app.constants.config import ModelDetails
-from app.app.constants.logger_config import setup_logger
+from app.constants.config import ModelDetails
+from app.constants.logger_config import setup_logger
 
 app = Flask(__name__)
 logger = setup_logger()

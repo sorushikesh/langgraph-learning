@@ -9,7 +9,7 @@ from langgraph.graph import StateGraph
 from langgraph.constants import END
 from pydantic import BaseModel
 
-from app.app.constants.config import ModelDetails
+from app.constants.config import ModelDetails
 
 app = Flask(__name__)
 
