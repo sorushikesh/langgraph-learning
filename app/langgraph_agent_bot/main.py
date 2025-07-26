@@ -1,14 +1,12 @@
-from typing import TypedDict, List
+from typing import List
 
 import langchain_anthropic
 from flask import Flask, request, jsonify
 from langchain.memory import ConversationSummaryMemory
 from langchain.prompts import PromptTemplate
-from langchain_core.messages import HumanMessage, AIMessage, BaseMessage
-from langchain_core.runnables import RunnableLambda
+from langchain_core.messages import HumanMessage, BaseMessage
 from langgraph.graph import StateGraph
 from langgraph.constants import END
-from langchain_anthropic import ChatAnthropic
 from pydantic import BaseModel
 
 from app.app.constants.config import ModelDetails
